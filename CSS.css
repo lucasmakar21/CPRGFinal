@@ -1,1 +1,56 @@
+body {
+    background-color: #244975;
+    color: wheat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    }
 
+    nav.navbar li a {
+        color: #ED7D31;
+        font-size: 40px;
+      }
+
+      div#main-navigation {
+        background-color: white;
+        width: 250px;
+        border: 15px solid #ED7D31;
+        padding: 50px;
+        margin: 20px;
+        height: 1000px;
+        }
+
+        div#banner { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+          }
+          div#banner-content { 
+            width: 1500px; 
+            margin: 0 auto; 
+            padding: 10px; 
+          }
+
+          a#loginButton {
+              background-color: white;
+              border: 5px solid #ED7D31;
+              color: #ED7D31;
+              font-size: 30px;
+              padding-bottom: 30px;
+              padding-top: 30px;
+              padding-left: 30px;
+              padding-right: 30px;
+              float: right;
+          }
+
+          div#footer {
+              background-color:white;
+              border: 5px solid #ED7D31;
+              padding-bottom: 30px;
+              padding-top: 30px;
+              padding-left: 30px;
+              padding-right: 30px;
+              text-align: center;
+          }
