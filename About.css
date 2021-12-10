@@ -1,6 +1,6 @@
 body {
   background-color: #244975;
-  color: wheat;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   
 }
@@ -169,7 +169,7 @@ body {
 .topnav a {
   text-decoration: none;
   font-size: 25px;
-  color: wheat;
+  color: white;
   padding: 10px;
 }
 
