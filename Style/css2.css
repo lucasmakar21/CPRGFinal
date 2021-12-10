@@ -1,0 +1,77 @@
+﻿body {
+    background-color: #244975;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#banner-img {
+    height: 150px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    height: 20%;
+}
+
+.signup {
+    background-color: #ED7D31;
+    float: right;
+}
+
+#loginButton:link {
+    color: wheat;
+    text-decoration: none;
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 15%;
+    background-color: #ED7D31;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+    position: fixed;
+}
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: wheat;
+        display: block;
+        padding-top: 5%;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
