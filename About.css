@@ -31,7 +31,7 @@ footer {
 }
 
 #loginButton:link {
-  color: wheat;
+  color: white;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 p {
-  color: wheat;;
+  color: white;;
   font-size: 20px;
 }
 
@@ -70,7 +70,7 @@ h3 {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
       font-size: 25px;
-      color: wheat;
+      color: white;
       display: block;
       padding-top: 5%;
   }
