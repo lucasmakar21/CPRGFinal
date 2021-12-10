@@ -74,3 +74,35 @@ footer {
             font-size: 18px;
         }
 }
+
+#artists {
+    color: #f1f1f1;
+}
+
+.artistcolumn {
+    float: left;
+    width: 30%;
+}
+
+/* Clear floats after the columns */
+.artistrow {
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 30%;
+
+}
+
+#artistimg {
+    border-radius: 50%;
+    width: 40%;
+}
+
+#atitle {
+    padding-left: 30%;
+}
+
+#artistname {
+    padding-left: 11%;
+    text-decoration: none;
+    color: wheat;
+}
