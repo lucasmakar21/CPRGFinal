@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    
+    <link rel="stylesheet" href="logincss.css">
+	
+    <title>Signup</title>
+
+    <div class="banner">
+        <img src="Images/banner2.png" alt="banner image" id="banner-img">
+    </div>
+
+    
+
+    <div class="topnav flex flex-between">
+        <div class="flex main-links">
+            <a href="index.html">Home</a>
+            <a href="artists.html">Artists</a>
+            <a href="about.html">About Us</a>
+            <a href="helpcenter">Help Center</a>
+        </div>
+    </div>
+
+    <header style = "font-size: 50px;"></style>User signup!
+    </header>
+
+    <form>
+	<br>
+      <form action="https://webdevbasics.net/scripts/demo.php" method="get">
+      <label for="name">Name:<br></label>
+      <input type="text" id="myname" name="myname" /><br />
+
+      <label for="email">Email:<br></label>
+      <input type="text" id="email" name="email" /><br />
+
+      <label for="favcolor">Favorite Tattoo Color: <br></label>
+      <input type="text" id="favcolor" name="favcolor" /><br /> <br>
+
+      <button onclick="bReader();" type="submit" value="Submit">Click here to confirm signup.</button>
+      
+    </form>
+
+    <h2 style= "font-family: Franklin Gothic Medium" >User added successfully with their favorite tattoo color!</h2>
+    <ul id="list">
+    </ul>
+
+    <script>
+        var array = [];
+        var ul = document.getElementById('list');
+
+        if (sessionStorage.savedArray) {
+            array = JSON.parse(sessionStorage.savedArray);
+            arrayReader();
+        }
+
+        function arrayReader() {
+            for (var i = 0; i < array.length; i++) {
+                ul.innerHTML += `<li style="color:${array[i].color}"> ${array[i].name} </li>`;
+            }
+        }
+
+        function bReader() {
+            var obj = {
+                name: document.getElementById("myname").value, 
+                color: document.getElementById("favcolor").value
+            };
+
+            if(!obj.name.length) return;
+
+            //add object to storage array
+            array.push(obj);
+            sessionStorage.savedArray = JSON.stringify(array);
+
+            //add objects to html
+            ul.innerHTML += `<li style="color:${obj.color}"> ${obj.name} </li>`;
+        }
+
+
+
+
+
+	
+
+
+    </script>
+  </body>
+</html>
