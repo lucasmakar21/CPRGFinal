@@ -104,5 +104,71 @@ footer {
 #artistname {
     padding-left: 11%;
     text-decoration: none;
-    color: wheat;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .topnav{
+        flex-direction: column;
+    }
+
+    .main-links{
+        flex-direction: column;
+    }
+
+    .helplinks{
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .leftbar{
+        width: 100%!important;
+    }
+
+    .helpimg{
+        padding: 0;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    background-color: #ED7D31;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+}
+
+.active-page{
+    color: black!important;
+}
+
+.helpimg{
+    width: 100%; 
+    padding: 5%;
+}
+
+.leftbar{
+    width: 15%;
 }
