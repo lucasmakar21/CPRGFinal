@@ -1,6 +1,6 @@
 body {
   background-color: #244975;
-  color: wheat;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -30,7 +30,7 @@ footer {
 }
 
 #loginButton:link {
-  color: wheat;
+  color: white;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ footer {
       padding: 6px 8px 6px 16px;
       text-decoration: none;
       font-size: 25px;
-      color: wheat;
+      color: white;
       display: block;
       padding-top: 5%;
   }
@@ -134,7 +134,7 @@ body {
 .topnav a {
   text-decoration: none;
   font-size: 25px;
-  color: wheat;
+  color: white;
   padding: 10px;
 }
 
