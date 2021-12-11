@@ -1,164 +1,164 @@
 body {
-  background-color: #244975;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #244975;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 footer {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 0;
-  width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 100%;
 }
 
 #banner-img {
-  height: 150px;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    height: 150px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .banner {
-  height: 20%;
+    height: 20%;
 }
 
 .signup {
-  background-color: #ED7D31;
-  float: right;
+    background-color: #ED7D31;
+    float: right;
 }
 
 #loginButton:link {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 
 .sidenav {
-  height: 100%;
-  width: 15%;
-  background-color: #ED7D31;
-  overflow-x: hidden;
-  padding-top: 20px;
-  float: left;
-  position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: #ED7D31;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+    position: fixed;
 }
 
-  .sidenav a {
-      padding: 6px 8px 6px 16px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      padding-top: 5%;
-  }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        padding-top: 5%;
+    }
 
-      .sidenav a:hover {
-          color: #f1f1f1;
-      }
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {
-      padding-top: 15px;
-  }
+    .sidenav {
+        padding-top: 15px;
+    }
 
-      .sidenav a {
-          font-size: 18px;
-      }
+        .sidenav a {
+            font-size: 18px;
+        }
 }
 
 .column {
-  width: 31.5%;
-  padding: 5px;
+    width: 31.5%;
+    padding: 5px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .row {
-justify-content: center;
-width: 100%;
+    justify-content: center;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  .topnav{
-      flex-direction: column;
-  }
+    .topnav {
+        flex-direction: column;
+    }
 
-  .main-links{
-      flex-direction: column;
-  }
+    .main-links {
+        flex-direction: column;
+    }
 
-  .helplinks{
-      width: 100%;
-  }
+    .helplinks {
+        width: 100%;
+    }
 
-  .container{
-      flex-direction: column;
-  }
+    .container {
+        flex-direction: column;
+    }
 
-  .leftbar{
-      width: 100%!important;
-  }
+    .leftbar {
+        width: 100% !important;
+    }
 
-  .helpimg{
-      padding: 0;
-  }
+    .helpimg {
+        padding: 0;
+    }
 
-  .row{
-    flex-direction: column!important;
-  }
+    .row {
+        flex-direction: column !important;
+    }
 
-  .column{
-    width: 100%!important;
-  }
+    .column {
+        width: 100% !important;
+    }
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .topnav {
-  background-color: #ED7D31;
-  margin-bottom: 20px;
+    background-color: #ED7D31;
+    margin-bottom: 20px;
 }
 
-.topnav a {
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  padding: 10px;
+    .topnav a {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+    }
+
+.flex {
+    display: flex;
 }
 
-.flex{
-  display: flex;
+.flex-between {
+    justify-content: space-between;
 }
 
-.flex-between{
-  justify-content: space-between;
+.container {
+    width: 100%;
 }
 
-.container{
-  width: 100%;
+.active-page {
+    color: black !important;
 }
 
-.active-page{
-  color: black!important;
+.helpimg {
+    width: 100%;
+    padding: 5%;
 }
 
-.helpimg{
-  width: 100%; 
-  padding: 5%;
-}
-
-.leftbar{
-  width: 15%;
+.leftbar {
+    width: 15%;
 }
