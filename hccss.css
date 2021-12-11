@@ -1,0 +1,179 @@
+body {
+    background-color: #244975;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#banner-img {
+    height: 150px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    height: 20%;
+}
+
+div#pagename {
+    background-color: white;
+    width: 500px;
+    border: 10px solid #ED7D31;
+    text-align:center;
+    margin: 0 auto;
+    height: 80px;
+    font-size: 30px;
+    position:relative;
+}
+
+
+
+div#FAQ {
+    text-align:center;
+    width: 100%;
+}
+
+
+
+.signup {
+    background-color: #ED7D31;
+    float: right;
+    
+}
+
+#loginButton:link {
+    color: white;
+    text-decoration: none;
+    position:static;
+}
+#wrapper {
+  float: right;
+  width: 200px;
+  clear:right;
+}
+.helplinks{
+  background-color:#ED7D31;
+  width: 15%;
+  float: right;
+  clear:both;
+  text-align:center;
+  
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 15%;
+    background-color: #ED7D31;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+    position: fixed;
+}
+
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        padding-top: 5%;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+  
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav{
+        flex-direction: column;
+    }
+
+    .main-links{
+        flex-direction: column;
+    }
+
+    .helplinks{
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .leftbar{
+        width: 100%!important;
+    }
+
+    .helpimg{
+        padding: 0;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    background-color: #ED7D31;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+}
+
+.active-page{
+    color: black!important;
+}
+
+.helpimg{
+    width: 100%; 
+    padding: 5%;
+}
+
+.leftbar{
+    width: 15%;
+}

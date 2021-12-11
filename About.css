@@ -2,6 +2,7 @@ body {
   background-color: #244975;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
 }
 
 footer {
@@ -34,6 +35,26 @@ footer {
   text-decoration: none;
 }
 
+h1 {
+  color: #ED7D31;
+  font-size: 40px;  
+}
+
+p {
+  color: white;;
+  font-size: 20px;
+}
+
+h2 {
+  color: #ED7D31;
+  font-size: 30px;  
+}
+
+h3 {
+  color: #ED7D31;;
+  font-size: 30px;
+}
+
 
 .sidenav {
   height: 100%;
@@ -58,6 +79,38 @@ footer {
           color: #f1f1f1;
       }
 
+      .ad {
+
+        float: right;
+      
+        width: 30.33%;
+
+        height: 100%;
+      
+        padding-left: 1725px; 
+
+        padding-top: 1px;
+
+        position: absolute;
+      
+      }
+
+      .tattoo {
+
+        float: left;
+      
+        width: 15.33%;
+
+        height: 25%;
+      
+        padding-right: 1725px; 
+
+        padding-top: 1px;
+
+        position: absolute;
+      
+      }
+
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
@@ -72,20 +125,6 @@ footer {
       .sidenav a {
           font-size: 18px;
       }
-}
-
-.column {
-  width: 31.5%;
-  padding: 5px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.row {
-justify-content: center;
-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -109,15 +148,11 @@ width: 100%;
       width: 100%!important;
   }
 
-  .helpimg{
+  .tattoo{
       padding: 0;
   }
 
-  .row{
-    flex-direction: column!important;
-  }
-
-  .column{
+  .sideimgs{
     width: 100%!important;
   }
 }
@@ -159,6 +194,6 @@ body {
   padding: 5%;
 }
 
-.leftbar{
+.sideimgs{
   width: 15%;
 }
