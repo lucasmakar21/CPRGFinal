@@ -177,3 +177,7 @@ body {
 .leftbar{
     width: 15%;
 }
+
+table, th, td {
+    border:1px solid black;
+}
