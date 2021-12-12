@@ -92,20 +92,33 @@ footer {
     width: 100%;
 }
 
-#artistimg {
+#artistport {
     width: 80%;
+}
+
+    #artistport:hover {
+        opacity: 0.5;
+    }
+
+#artistimg {
+    border-radius: 50%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #atitle {
     width: 100%;
     text-align: center;
-
+    font-size: 2vw;
 }
 
 #artistad {
     width: 100%;
     text-align: center;
     font-style: italic;
+    font-size: 1.5vw;
 }
 
 
@@ -147,6 +160,34 @@ footer {
     .artistcolumn {
         width: 100%;
     }
+
+    #artistimg {
+        border-radius: 50%;
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #artistimg {
+        border-radius: 50%;
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #atitle {
+        font-size: 3vw;
+    }
+
+    #artistad {
+        font-size: 2.5vw;
+    }
 }
 
 body {
@@ -157,7 +198,6 @@ body {
     background-color: #ED7D31;
     margin-bottom: 20px;
 }
-
     .topnav a {
         text-decoration: none;
         font-size: 25px;
