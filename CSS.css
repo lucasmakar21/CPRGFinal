@@ -93,7 +93,7 @@ footer {
     width: 100%;
 }
 
-#artistimg {
+.artistimg {
     border-radius: 50%;
     width: 33.33%;
 }
@@ -103,7 +103,7 @@ footer {
     text-align: center;
 }
 
-#artistname {
+.artistname {
     text-decoration: none;
     color: white;
     text-align: center;

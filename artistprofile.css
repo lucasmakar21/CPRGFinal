@@ -92,11 +92,11 @@ footer {
     width: 100%;
 }
 
-#artistport {
+.artistport {
     width: 80%;
 }
 
-    #artistport:hover {
+    .artistport:hover {
         opacity: 0.5;
     }
 
